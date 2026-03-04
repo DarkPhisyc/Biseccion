@@ -5,13 +5,11 @@ import javax.swing.JLabel;
 
 public class Ventana extends JFrame {
     private JTextField funcion;
-    private JTextField x0;
     private JTextField error;
     private JButton calcular;
     private JLabel etiqueta1;
     private JLabel etiqueta2;
     private JLabel etiqueta3;
-    private JLabel etiqueta4;
     private JLabel etiqueta5;
     private JTextField a;
     private JTextField b;
@@ -53,14 +51,6 @@ public class Ventana extends JFrame {
         etiqueta3 = new JLabel(",");
         etiqueta3.setBounds(275, 100, 20, 30);
         add(etiqueta3);
-        // Etiqueta para indidicar x0
-        etiqueta4 = new JLabel("Ingresa el valor de x0:");
-        etiqueta4.setBounds(60, 150, 150, 30);
-        add(etiqueta4);
-        // Campo de texto para x0
-        x0 = new JTextField();
-        x0.setBounds(190, 150, 180, 30);
-        add(x0);
         // Etiqueta para indicar el error o tolerancia
         etiqueta5 = new JLabel("Ingresa el error:");
         etiqueta5.setBounds(94, 200, 150, 30);
